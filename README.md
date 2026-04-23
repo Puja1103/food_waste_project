@@ -111,37 +111,27 @@ database="food_waste"
 python app.py
 
 Open in browser:
-
 http://127.0.0.1:5000
 
-## 🔐 Default Roles
 
-- Admin: Manually insert into database with role = 'admin'
-- User: Register using the UI
+🔐 Default Roles
+Admin: Manually insert into database with role = 'admin'
+User: Register using the UI
 
----
+📊 System Flow
+Admin adds food
+User views available food
+User sends request
+Admin approves request
+User clicks "I am Coming"
+User collects food
+Status updates
 
-## 📊 System Flow
+🎯 Future Enhancements
+Email/SMS notifications
+Location-based filtering
+Image upload for food items
+Mobile app integration
 
-1. Admin adds food  
-2. User views available food  
-3. User sends request  
-4. Admin approves request  
-5. User clicks "I am Coming"  
-6. User collects food  
-7. Status updates  
-
----
-
-## 🎯 Future Enhancements
-
-- Email/SMS notifications
-- Location-based filtering
-- Image upload for food items
-- Mobile app integration
-
----
-
-## 👩‍💻 Author
-
+👩‍💻 Author
 Puja Labhade
