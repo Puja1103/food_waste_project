@@ -32,26 +32,27 @@ A web-based application built using **Flask (Python)** and **MySQL** to reduce f
 ---
 
 ## 📁 Project Structure
+
+```text
 Food-Waste-System/
 │
 ├── app.py
 ├── db_config.py
 │
 ├── templates/
-│ ├── login.html
-│ ├── register.html
-│ ├── admin_login.html
-│ ├── add_food.html
-│ ├── update_food.html
-│ ├── view_food.html
-│ ├── view_requests.html
-│ └── request.html
+│   ├── login.html
+│   ├── register.html
+│   ├── admin_login.html
+│   ├── add_food.html
+│   ├── update_food.html
+│   ├── view_food.html
+│   ├── view_requests.html
+│   └── request.html
 │
 ├── static/
-│ └── (CSS / Images / Logo)
+│   └── (CSS / Images / Logo)
 │
 └── README.md
-
 
 ---
 
